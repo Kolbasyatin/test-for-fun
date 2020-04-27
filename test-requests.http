@@ -1,0 +1,5 @@
+###
+GET http://127.0.0.1:8000/?category=12345&type=xml&stub=true
+###
+GET http://127.0.0.1:8000/?category=12345&type=json&stub=true
+###

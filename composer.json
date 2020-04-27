@@ -1,0 +1,27 @@
+{
+  "name": "zalex/test",
+  "authors": [
+    {
+      "name": "zalex",
+      "email": "zalex@zalex.com.ua"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    },
+    "classmap": [
+      "FakeKernel.php",
+      "Request.php",
+      "Response.php"
+    ]
+  },
+  "require": {
+    "psr/cache": "^1.0",
+    "ext-json": "*",
+    "guzzlehttp/psr7": "^1.6",
+    "guzzlehttp/guzzle": "^6.5",
+    "cache/filesystem-adapter": "^1.0",
+    "monolog/monolog": "^2.0"
+  }
+}
